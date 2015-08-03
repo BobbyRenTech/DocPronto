@@ -9,6 +9,8 @@
 import UIKit
 
 class MapViewController: UIViewController {
+    
+    @IBOutlet var mapView: GMSMapView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
