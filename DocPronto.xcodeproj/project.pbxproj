@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		22CFFF5F1B6DF417000FDFC6 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CFFF5E1B6DF417000FDFC6 /* Map.storyboard */; };
-		22CFFF611B6DFD42000FDFC6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CFFF601B6DFD42000FDFC6 /* MapViewController.swift */; };
+		22F351B71B6F48BD00EE5048 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F351B61B6F48BD00EE5048 /* MapViewController.swift */; };
 		AC7909341B6C455F00085FB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7909331B6C455F00085FB6 /* AppDelegate.swift */; };
 		AC7909371B6C455F00085FB6 /* DocPronto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC7909351B6C455F00085FB6 /* DocPronto.xcdatamodeld */; };
 		AC7909391B6C455F00085FB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7909381B6C455F00085FB6 /* ViewController.swift */; };
@@ -48,7 +48,7 @@
 /* Begin PBXFileReference section */
 		2161FFB5DEECA8224FEC534E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		22CFFF5E1B6DF417000FDFC6 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Map.storyboard; path = ../Map.storyboard; sourceTree = "<group>"; };
-		22CFFF601B6DFD42000FDFC6 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		22F351B61B6F48BD00EE5048 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7BEEAF65A38F5FAC21F6B91A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC79092E1B6C455F00085FB6 /* DocPronto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocPronto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7909321B6C455F00085FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -173,8 +173,8 @@
 			children = (
 				AC7909331B6C455F00085FB6 /* AppDelegate.swift */,
 				AC7909381B6C455F00085FB6 /* ViewController.swift */,
+				22F351B61B6F48BD00EE5048 /* MapViewController.swift */,
 				22CFFF5E1B6DF417000FDFC6 /* Map.storyboard */,
-				22CFFF601B6DFD42000FDFC6 /* MapViewController.swift */,
 				AC79093A1B6C455F00085FB6 /* Main.storyboard */,
 				AC79093F1B6C455F00085FB6 /* LaunchScreen.xib */,
 				AC7909351B6C455F00085FB6 /* DocPronto.xcdatamodeld */,
@@ -362,7 +362,7 @@
 				AC7909391B6C455F00085FB6 /* ViewController.swift in Sources */,
 				AC7909371B6C455F00085FB6 /* DocPronto.xcdatamodeld in Sources */,
 				AC7909341B6C455F00085FB6 /* AppDelegate.swift in Sources */,
-				22CFFF611B6DFD42000FDFC6 /* MapViewController.swift in Sources */,
+				22F351B71B6F48BD00EE5048 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

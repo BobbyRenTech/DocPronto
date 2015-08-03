@@ -2,30 +2,18 @@
 //  MapViewController.swift
 //  DocPronto
 //
-//  Created by Roeut on 8/2/15.
+//  Created by Roeut on 8/3/15.
 //  Copyright (c) 2015 Bobby Ren. All rights reserved.
 //
 
 import UIKit
 
 class MapViewController: UIViewController {
-    
-   // @IBOutlet var mapView: GMSMapView!
-    
-
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-  //      var camera = GMSCameraPosition.cameraWithLatitude(39.952432,longitude: –75.164403, zoom: 15)
-        
-   //     self.mapView.myLocationEnabled = true
-        
-   //     self.mapView.camera = camera
-        
-
     }
 
     override func didReceiveMemoryWarning() {
