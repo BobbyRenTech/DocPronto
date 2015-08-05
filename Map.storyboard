@@ -23,6 +23,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="wZT-u9-VIT" id="qaU-ia-3fX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xQV-43-nNl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
