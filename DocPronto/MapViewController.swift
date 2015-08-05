@@ -24,7 +24,12 @@ class MapViewController: UIViewController {
         
         self.mapView.camera = camera
         
-        
+        //Adding marker
+        var marker = GMSMarker()
+        marker.position = CLLocationCoordinate2DMake(39.952432, -75.164403)
+        marker.title = "My Location"
+        marker.snippet = "I need a doc pronto!"
+        marker.map = mapView
         
     }
 
