@@ -66,6 +66,15 @@ class MapViewController: UIViewController, CLLocationManagerDelegate {
     
     
     func locationManager(manager: CLLocationManager!, didUpdateLocations locations: [AnyObject]!) {
+        var marker = GMSMarker()
+        
+        marker.position = locationManager.location.coordinate
+        
+        marker.title = "My location"
+        
+        marker.snippet = "I need a doc pronto"
+        
+        marker.map = mapView
         
         if let location = locations.first as? CLLocation {
             
