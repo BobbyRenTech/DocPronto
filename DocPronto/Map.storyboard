@@ -1,26 +1,35 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="a5F-ko-iCO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="krn-fs-epY">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
     </dependencies>
     <scenes>
         <!--Map View Controller-->
-        <scene sceneID="egM-Z9-HlS">
+        <scene sceneID="MhI-ES-uv9">
             <objects>
-                <viewController id="a5F-ko-iCO" customClass="MapViewController" customModule="DocPronto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="krn-fs-epY" customClass="MapViewController" customModule="DocPronto" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="feS-ts-gxT"/>
-                        <viewControllerLayoutGuide type="bottom" id="Im0-5X-mEV"/>
+                        <viewControllerLayoutGuide type="top" id="llh-cC-U7H"/>
+                        <viewControllerLayoutGuide type="bottom" id="nm4-Np-5d9"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Esc-Yk-bhB" customClass="GMSMapView">
+                    <view key="view" contentMode="scaleToFill" id="zsx-sq-kZE">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="x8q-Sw-g0N" customClass="GMSMapView">
+                                <rect key="frame" x="6" y="-27" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="x8q-Sw-g0N" id="Rnt-jA-FcD"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="ijw-Kt-CbI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fp9-Oy-ZkS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="266" y="232"/>
+            <point key="canvasLocation" x="276" y="291"/>
         </scene>
     </scenes>
 </document>
