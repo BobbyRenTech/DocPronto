@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FDE71CD1B7DAC890078E4B0 /* Map.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5FDE71CC1B7DAC890078E4B0 /* Map.storyboard */; };
 		AC7909341B6C455F00085FB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7909331B6C455F00085FB6 /* AppDelegate.swift */; };
 		AC7909371B6C455F00085FB6 /* DocPronto.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AC7909351B6C455F00085FB6 /* DocPronto.xcdatamodeld */; };
 		AC7909391B6C455F00085FB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC7909381B6C455F00085FB6 /* ViewController.swift */; };
@@ -45,6 +46,7 @@
 
 /* Begin PBXFileReference section */
 		2161FFB5DEECA8224FEC534E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		5FDE71CC1B7DAC890078E4B0 /* Map.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Map.storyboard; sourceTree = "<group>"; };
 		7BEEAF65A38F5FAC21F6B91A /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC79092E1B6C455F00085FB6 /* DocPronto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocPronto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC7909321B6C455F00085FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 				AC7909331B6C455F00085FB6 /* AppDelegate.swift */,
 				AC7909381B6C455F00085FB6 /* ViewController.swift */,
 				AC79093A1B6C455F00085FB6 /* Main.storyboard */,
+				5FDE71CC1B7DAC890078E4B0 /* Map.storyboard */,
 				AC79093F1B6C455F00085FB6 /* LaunchScreen.xib */,
 				AC7909351B6C455F00085FB6 /* DocPronto.xcdatamodeld */,
 				AC7909311B6C455F00085FB6 /* Supporting Files */,
@@ -289,6 +292,7 @@
 				AC79093C1B6C455F00085FB6 /* Main.storyboard in Resources */,
 				AC7909411B6C455F00085FB6 /* LaunchScreen.xib in Resources */,
 				AC79093E1B6C455F00085FB6 /* Images.xcassets in Resources */,
+				5FDE71CD1B7DAC890078E4B0 /* Map.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
